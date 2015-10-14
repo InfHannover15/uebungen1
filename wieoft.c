@@ -8,4 +8,5 @@ for(i=0;i<argc;i++)
 	}else{
 		printf("Eingabe fehlt\n");
 	}
+	/* hallo jungs! */
 }
