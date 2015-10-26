@@ -6,8 +6,8 @@
 int main(){
 	srand(time(NULL));
 	for(;;){
-		int a= 31+rand()%20, b=rand()%256;
-		std::cout<<std::dec<<"\033["<<a<<"m"<<std::hex<<b<<" ";
-		usleep(60);
+		char a= rand(), b=rand()%256;
+		std::cout<<std::dec<<"\033["<<32<<"m"<<std::hex<<b<<" ";
+		usleep(50);
 	}
 }
